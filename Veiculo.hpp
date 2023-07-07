@@ -16,6 +16,7 @@ public:
     std::string cor;
     std::string placa;
     int ano;
+    double valorDiaria;
 
 };
 

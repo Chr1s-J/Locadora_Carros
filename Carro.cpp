@@ -1,14 +1,15 @@
 #include "Carro.hpp"
 
-Carro::Carro(std::string modelo_param, std::string marca_param, int ano_param, int placa_param){
-    modelo = modelo_param;
-    marca = marca_param;
-    ano = ano_param;
-    placa = placa_param;
+Carro::Carro(std::string modelo, std::string marca, int ano, std::string placa, double valorDiaria){
+    this->modelo = modelo;
+    this->marca = marca;
+    this->ano = ano;
+    this->placa = placa;
+    this->valorDiaria = valorDiaria;
 
-    arCondicionado = true;
-    marchaAutomatica = true;
-    motorFlex = true;
+    //arCondicionado = true;
+    //marchaAutomatica = true;
+    //motorFlex = true;
     disponivel = true;
 }
 

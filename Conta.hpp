@@ -6,22 +6,24 @@
 
 class Conta
 {
+protected:
+    int cpf;
+
 private:
-    /* data */
+    std::string senha;
+
 public:
     std::string nome;
-    int cpf;
-    std::string senha;
 
     Conta();
     Conta(std::string nome, int cpf, std::string senha);
     ~Conta();
+
+    int getCPF() const;
+    void setCPF(int cpf);
+
+    std::string getSenha() const;
+    void setSenha(const std::string &senha);
 };
-
-
-
-
-
-
 
 #endif

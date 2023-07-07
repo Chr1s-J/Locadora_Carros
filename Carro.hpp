@@ -1,24 +1,24 @@
 #ifndef CARRO_H
 #define CARRO_H
 
-#include <Veiculo.hpp>
 
 #include <iostream>
 #include <string>
 
-class Carro : public Veiculo
-{
+#include "Veiculo.hpp"
+
+class Carro : public Veiculo{
 private:
     
 public:
     bool arCondicionado;
     bool marchaAutomatica;
     bool motorFlex;
-    bool disponivel;
+    bool disponivel = true;
 
 
 
-    Carro(std::string modelo, std::string marca, int ano, int placa);
+    Carro(std::string modelo, std::string marca, int ano, std::string placa, double valorDiaria);
     ~Carro();
 };
 

@@ -5,29 +5,29 @@
 #include <vector>
 #include "Conta.hpp"
 
-class Cliente : public Conta
-{
+class Cliente : public Conta{
 private:
     std::string endereco;                      // endereço do cliente
-    std::string telefone;                      // telefone do cliente
+    int telefone;                      // telefone do cliente
     std::string carteiraMotorista;             // cart. motorista
     std::string carteiraPagamento;             // cart. pagamento
     std::string dataNascimento;                // data de nasc
-    std::string cpf;                           // cpf
+    int cpf;                           // cpf
     std::string email;                         // email
     std::vector<std::string> historicoCliente; // historico de locacao do cliente
 
 public:
-    Cliente(std::string nome, std::string dataNascimento, std::string cpf, std::string email,
-            std::string senha, std::string endereco, std::string telefone,
+    Cliente();
+    Cliente(std::string nome, std::string dataNascimento, int cpf, std::string email,
+            std::string senha, std::string endereco, int telefone,
             std::string carteiraMotorista, std::string carteiraPagamento);
     ~Cliente();
 
     std::string getEndereco() const;
     void setEndereco(const std::string &endereco);
 
-    std::string getTelefone() const;
-    void setTelefone(const std::string &telefone);
+    int getTelefone() const;
+    void setTelefone(const int &telefone);
 
     std::string getCarteiraMotorista() const;
     void setCarteiraMotorista(const std::string &carteiraMotorista);
@@ -38,8 +38,8 @@ public:
     std::string getDataNascimento() const;
     void setDataNascimento(const std::string &dataNascimento);
 
-    std::string getCPF() const;
-    void setCPF(const std::string &cpf);
+    int getCPF() const;
+    void setCPF(const int &cpf);
 
     std::string getEmail() const;
     void setEmail(const std::string &email);
