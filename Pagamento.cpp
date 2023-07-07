@@ -21,7 +21,7 @@ void Pagamento::efetuarPagamento(std::string modelo, int cpf, int dias) {
         if (valorDiaria > 0.0) {
             // Calcular o valor total
             double valorTotal = valorDiaria * dias;
-            valorTotal += valorTotal * taxa;
+            valorTotal += valorTotal + taxa;
 
             // Realizar o pagamento
             std::cout << "Pagamento efetuado no valor de R$" << valorTotal << " para o veículo modelo " << modelo << "." << std::endl;

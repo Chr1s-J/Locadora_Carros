@@ -11,15 +11,14 @@
 
 class Admin : public Conta {
 private:
-    
+    static const std::string MASTER_USER;
+    static const std::string MASTER_SENHA;
+
 public:
     Admin();
     ~Admin();
 
+    static bool isMasterAdmin(const std::string& user, const std::string& senha);
 };
-
-
-
-
 
 #endif
