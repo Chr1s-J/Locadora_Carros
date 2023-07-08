@@ -1,3 +1,13 @@
+/**
+ * @file main.cpp
+ * @brief Função principal do programa.
+ *
+ * Esta função é responsável por iniciar a execução do programa da Locadora de Carros.
+ * Ela exibe um menu para o usuário selecionar entre as opções disponíveis e realiza as ações correspondentes.
+ *
+ * @return 0 em caso de execução bem-sucedida.
+ */
+
 #include "Cliente.hpp"
 #include "Admin.hpp"
 #include "Locadora.hpp"
@@ -8,6 +18,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
+
+
 
 int main()
 {
