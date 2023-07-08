@@ -1,3 +1,8 @@
+/**
+ * @file Carro.cpp
+ * @brief Implementação da classe Carro
+ */
+
 #include "Carro.hpp"
 
 Carro::Carro(std::string modelo, std::string marca, int ano, std::string placa, double valorDiaria){
