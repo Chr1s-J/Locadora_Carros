@@ -1,3 +1,8 @@
+/**
+ * @file Admin.cpp
+ * @brief Implementação da classe Admin
+ */
+
 #include "Admin.hpp"
 
 const std::string Admin::MASTER_USER = "admin";
