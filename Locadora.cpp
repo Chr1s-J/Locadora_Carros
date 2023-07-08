@@ -1,3 +1,9 @@
+/**
+ * @file Locadora.cpp
+ * @brief Implementação da classe Locadora
+ */
+
+
 #include "Locadora.hpp"
 
 void Locadora::adicionarCarro(Carro carro) {
