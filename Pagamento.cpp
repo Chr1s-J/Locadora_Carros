@@ -1,3 +1,8 @@
+/**
+ * @file Pagamento.cpp
+ * @brief Implementação da classe Pagamento
+ */
+
 #include "Pagamento.hpp"
 
 #include <iostream>
