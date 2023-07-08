@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação Locadora de Carros: Código-Fonte de //wsl.localhost/Ubuntu-20.04/home/shelleduarte/Locadora_Carros-main/Pagamento.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Logotipo Para Mecânico e Venda de Carros.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Documentação Locadora de Carros<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Este projeto implementa um sistema de locadora de carros.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_3d621edbebae6ff7a1f3b7fcf7521bf1.html">wsl.localhost</a></li><li class="navelem"><a class="el" href="dir_d39398acc8de2b5e01a912aa184b2c0c.html">Ubuntu-20.04</a></li><li class="navelem"><a class="el" href="dir_4a34a7d6fa92fa8a891eed821d2104a5.html">home</a></li><li class="navelem"><a class="el" href="dir_dfca24f4614b696a0676e3d338bb2258.html">shelleduarte</a></li><li class="navelem"><a class="el" href="dir_7b61885d0272f23f5eaba3a16bd055ea.html">Locadora_Carros-main</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">Pagamento.hpp</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_pagamento_8hpp.html">Ir para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#ifndef PAGAMENTO_HPP</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#define PAGAMENTO_HPP</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="_locadora_8hpp.html">Locadora.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="_carro_8hpp.html">Carro.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_pagamento.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="class_pagamento.html">Pagamento</a> {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_class" href="class_carro.html">Carro</a>* carro; </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <a class="code hl_class" href="class_locadora.html">Locadora</a>* locadora; </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_pagamento.html#afc71647a9bd39df44de3f78cd96efb97">   24</a></span>    <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code hl_variable" href="class_pagamento.html#afc71647a9bd39df44de3f78cd96efb97">taxa</a> = 80.0; </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <a class="code hl_function" href="class_pagamento.html#a977eed4f6df93fc4d83f0199652b74d1">Pagamento</a>(<a class="code hl_class" href="class_locadora.html">Locadora</a>* _locadora, <a class="code hl_class" href="class_carro.html">Carro</a>* _carro);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <a class="code hl_function" href="class_pagamento.html#a977eed4f6df93fc4d83f0199652b74d1">Pagamento</a>();</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <a class="code hl_function" href="class_pagamento.html#aa18658fc5aaf50e5a81710155da1f31c">~Pagamento</a>();</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_pagamento.html#aeec4c9d2f0ba1c34758ac695c08d0d50">efetuarPagamento</a>(std::string modelo, <span class="keywordtype">int</span> cpf, <span class="keywordtype">int</span> dias);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>};</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#endif </span><span class="comment">// PAGAMENTO_HPP</span></div>
+<div class="ttc" id="a_carro_8hpp_html"><div class="ttname"><a href="_carro_8hpp.html">Carro.hpp</a></div><div class="ttdoc">Definição da classe Carro.</div></div>
+<div class="ttc" id="a_locadora_8hpp_html"><div class="ttname"><a href="_locadora_8hpp.html">Locadora.hpp</a></div><div class="ttdoc">Definição da classe Locadora.</div></div>
+<div class="ttc" id="aclass_carro_html"><div class="ttname"><a href="class_carro.html">Carro</a></div><div class="ttdoc">Classe que representa um carro.</div><div class="ttdef"><b>Definição</b> Carro.hpp:19</div></div>
+<div class="ttc" id="aclass_locadora_html"><div class="ttname"><a href="class_locadora.html">Locadora</a></div><div class="ttdoc">Classe que representa uma locadora de carros.</div><div class="ttdef"><b>Definição</b> Locadora.hpp:19</div></div>
+<div class="ttc" id="aclass_pagamento_html"><div class="ttname"><a href="class_pagamento.html">Pagamento</a></div><div class="ttdoc">Classe que representa o pagamento referente ao aluguel do carro.</div><div class="ttdef"><b>Definição</b> Pagamento.hpp:17</div></div>
+<div class="ttc" id="aclass_pagamento_html_a977eed4f6df93fc4d83f0199652b74d1"><div class="ttname"><a href="class_pagamento.html#a977eed4f6df93fc4d83f0199652b74d1">Pagamento::Pagamento</a></div><div class="ttdeci">Pagamento()</div><div class="ttdoc">Construtor padrão da classe Pagamento.</div><div class="ttdef"><b>Definição</b> Pagamento.cpp:11</div></div>
+<div class="ttc" id="aclass_pagamento_html_aa18658fc5aaf50e5a81710155da1f31c"><div class="ttname"><a href="class_pagamento.html#aa18658fc5aaf50e5a81710155da1f31c">Pagamento::~Pagamento</a></div><div class="ttdeci">~Pagamento()</div><div class="ttdoc">Destrutor da classe Pagamento.</div><div class="ttdef"><b>Definição</b> Pagamento.cpp:43</div></div>
+<div class="ttc" id="aclass_pagamento_html_aeec4c9d2f0ba1c34758ac695c08d0d50"><div class="ttname"><a href="class_pagamento.html#aeec4c9d2f0ba1c34758ac695c08d0d50">Pagamento::efetuarPagamento</a></div><div class="ttdeci">void efetuarPagamento(std::string modelo, int cpf, int dias)</div><div class="ttdoc">Efetua o pagamento de um carro alugado.</div><div class="ttdef"><b>Definição</b> Pagamento.cpp:18</div></div>
+<div class="ttc" id="aclass_pagamento_html_afc71647a9bd39df44de3f78cd96efb97"><div class="ttname"><a href="class_pagamento.html#afc71647a9bd39df44de3f78cd96efb97">Pagamento::taxa</a></div><div class="ttdeci">const double taxa</div><div class="ttdef"><b>Definição</b> Pagamento.hpp:24</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

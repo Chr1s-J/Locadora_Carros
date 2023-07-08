@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação Locadora de Carros: Código-Fonte de //wsl.localhost/Ubuntu-20.04/home/shelleduarte/Locadora_Carros-main/Locadora.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Logotipo Para Mecânico e Venda de Carros.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Documentação Locadora de Carros<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Este projeto implementa um sistema de locadora de carros.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_3d621edbebae6ff7a1f3b7fcf7521bf1.html">wsl.localhost</a></li><li class="navelem"><a class="el" href="dir_d39398acc8de2b5e01a912aa184b2c0c.html">Ubuntu-20.04</a></li><li class="navelem"><a class="el" href="dir_4a34a7d6fa92fa8a891eed821d2104a5.html">home</a></li><li class="navelem"><a class="el" href="dir_dfca24f4614b696a0676e3d338bb2258.html">shelleduarte</a></li><li class="navelem"><a class="el" href="dir_7b61885d0272f23f5eaba3a16bd055ea.html">Locadora_Carros-main</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">Locadora.hpp</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_locadora_8hpp.html">Ir para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#ifndef LOCADORA_HPP</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#define LOCADORA_HPP</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="_carro_8hpp.html">Carro.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="class_locadora.html">   19</a></span><span class="keyword">class </span><a class="code hl_class" href="class_locadora.html">Locadora</a> {</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="comment">//std::vector&lt;Carro&gt; carros;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_locadora.html#a6f72c9c88ab522ff21360fd88481c914">   24</a></span>    std::vector&lt;Carro&gt; <a class="code hl_variable" href="class_locadora.html#a6f72c9c88ab522ff21360fd88481c914">carros</a>; </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_locadora.html#aa5bbf7b3e098b18fcb5310435557a497">adicionarCarro</a>(<a class="code hl_class" href="class_carro.html">Carro</a> carro);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_locadora.html#aa93e5f373b94fd656a042445caced938">listarCarrosDisponiveis</a>();</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_locadora.html#ad20cff556894335fbb50752d412b2fbd">alugarCarro</a>(std::string modelo);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_locadora.html#aae27c18249a4e81486fac56cdc024032">devolverCarro</a>(std::string modelo);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <a class="code hl_function" href="class_locadora.html#a652343785d84d0a0d3f285ed26970897">Locadora</a>();</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <a class="code hl_function" href="class_locadora.html#aa032c6e5030e631683423e99b0e6b9e3">~Locadora</a>();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>};</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#endif </span><span class="comment">// LOCADORA_HPP</span></div>
+<div class="ttc" id="a_carro_8hpp_html"><div class="ttname"><a href="_carro_8hpp.html">Carro.hpp</a></div><div class="ttdoc">Definição da classe Carro.</div></div>
+<div class="ttc" id="aclass_carro_html"><div class="ttname"><a href="class_carro.html">Carro</a></div><div class="ttdoc">Classe que representa um carro.</div><div class="ttdef"><b>Definição</b> Carro.hpp:19</div></div>
+<div class="ttc" id="aclass_locadora_html"><div class="ttname"><a href="class_locadora.html">Locadora</a></div><div class="ttdoc">Classe que representa uma locadora de carros.</div><div class="ttdef"><b>Definição</b> Locadora.hpp:19</div></div>
+<div class="ttc" id="aclass_locadora_html_a652343785d84d0a0d3f285ed26970897"><div class="ttname"><a href="class_locadora.html#a652343785d84d0a0d3f285ed26970897">Locadora::Locadora</a></div><div class="ttdeci">Locadora()</div><div class="ttdoc">Construtor padrão da classe Locadora.</div><div class="ttdef"><b>Definição</b> Locadora.cpp:46</div></div>
+<div class="ttc" id="aclass_locadora_html_a6f72c9c88ab522ff21360fd88481c914"><div class="ttname"><a href="class_locadora.html#a6f72c9c88ab522ff21360fd88481c914">Locadora::carros</a></div><div class="ttdeci">std::vector&lt; Carro &gt; carros</div><div class="ttdef"><b>Definição</b> Locadora.hpp:24</div></div>
+<div class="ttc" id="aclass_locadora_html_aa032c6e5030e631683423e99b0e6b9e3"><div class="ttname"><a href="class_locadora.html#aa032c6e5030e631683423e99b0e6b9e3">Locadora::~Locadora</a></div><div class="ttdeci">~Locadora()</div><div class="ttdoc">Destrutor da classe Locadora.</div><div class="ttdef"><b>Definição</b> Locadora.cpp:50</div></div>
+<div class="ttc" id="aclass_locadora_html_aa5bbf7b3e098b18fcb5310435557a497"><div class="ttname"><a href="class_locadora.html#aa5bbf7b3e098b18fcb5310435557a497">Locadora::adicionarCarro</a></div><div class="ttdeci">void adicionarCarro(Carro carro)</div><div class="ttdoc">Adiciona um carro à locadora.</div><div class="ttdef"><b>Definição</b> Locadora.cpp:9</div></div>
+<div class="ttc" id="aclass_locadora_html_aa93e5f373b94fd656a042445caced938"><div class="ttname"><a href="class_locadora.html#aa93e5f373b94fd656a042445caced938">Locadora::listarCarrosDisponiveis</a></div><div class="ttdeci">void listarCarrosDisponiveis()</div><div class="ttdoc">Lista os carros disponíveis na locadora.</div><div class="ttdef"><b>Definição</b> Locadora.cpp:13</div></div>
+<div class="ttc" id="aclass_locadora_html_aae27c18249a4e81486fac56cdc024032"><div class="ttname"><a href="class_locadora.html#aae27c18249a4e81486fac56cdc024032">Locadora::devolverCarro</a></div><div class="ttdeci">void devolverCarro(std::string modelo)</div><div class="ttdoc">Devolve um carro alugado pelo modelo.</div><div class="ttdef"><b>Definição</b> Locadora.cpp:34</div></div>
+<div class="ttc" id="aclass_locadora_html_ad20cff556894335fbb50752d412b2fbd"><div class="ttname"><a href="class_locadora.html#ad20cff556894335fbb50752d412b2fbd">Locadora::alugarCarro</a></div><div class="ttdeci">void alugarCarro(std::string modelo)</div><div class="ttdoc">Aluga um carro pelo modelo.</div><div class="ttdef"><b>Definição</b> Locadora.cpp:22</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

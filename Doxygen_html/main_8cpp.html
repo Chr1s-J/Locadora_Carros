@@ -1,0 +1,597 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação Locadora de Carros: Referência do Arquivo //wsl.localhost/Ubuntu-20.04/home/shelleduarte/Locadora_Carros-main/main.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Logotipo Para Mecânico e Venda de Carros.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Documentação Locadora de Carros<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Este projeto implementa um sistema de locadora de carros.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_3d621edbebae6ff7a1f3b7fcf7521bf1.html">wsl.localhost</a></li><li class="navelem"><a class="el" href="dir_d39398acc8de2b5e01a912aa184b2c0c.html">Ubuntu-20.04</a></li><li class="navelem"><a class="el" href="dir_4a34a7d6fa92fa8a891eed821d2104a5.html">home</a></li><li class="navelem"><a class="el" href="dir_dfca24f4614b696a0676e3d338bb2258.html">shelleduarte</a></li><li class="navelem"><a class="el" href="dir_7b61885d0272f23f5eaba3a16bd055ea.html">Locadora_Carros-main</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo main.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Função principal do programa.  
+<a href="#details">Mais...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="_cliente_8hpp_source.html">Cliente.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_admin_8hpp_source.html">Admin.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_locadora_8hpp_source.html">Locadora.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_carro_8hpp_source.html">Carro.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_veiculo_8hpp_source.html">Veiculo.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_pagamento_8hpp_source.html">Pagamento.hpp</a>&quot;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Função principal do programa. </p>
+<p>Esta função é responsável por iniciar a execução do programa da <a class="el" href="class_locadora.html" title="Classe que representa uma locadora de carros.">Locadora</a> de Carros. Ela exibe um menu para o usuário selecionar entre as opções disponíveis e realiza as ações correspondentes.</p>
+<dl class="section return"><dt>Retorna</dt><dd>0 em caso de execução bem-sucedida. </dd></dl>
+</div><h2 class="groupheader">Funções</h2>
+<a id="ae66f6b31b5ad750f1fe042a706a4e3d4" name="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>   <a class="code hl_class" href="class_locadora.html">Locadora</a> locadora;</div>
+<div class="line"><span class="lineno">   27</span>   <a class="code hl_class" href="class_cliente.html">Cliente</a> cliente;</div>
+<div class="line"><span class="lineno">   28</span>   <a class="code hl_class" href="class_pagamento.html">Pagamento</a> pagamento;</div>
+<div class="line"><span class="lineno">   29</span> </div>
+<div class="line"><span class="lineno">   30</span>    <span class="comment">// Adicionando carros à locadora</span></div>
+<div class="line"><span class="lineno">   31</span>    locadora.<a class="code hl_function" href="class_locadora.html#aa5bbf7b3e098b18fcb5310435557a497">adicionarCarro</a>(<a class="code hl_class" href="class_carro.html">Carro</a>(<span class="stringliteral">&quot;Civic&quot;</span>, <span class="stringliteral">&quot;Honda&quot;</span>, 2019, <span class="stringliteral">&quot;NXT4040&quot;</span>, 182.0));</div>
+<div class="line"><span class="lineno">   32</span>    locadora.<a class="code hl_function" href="class_locadora.html#aa5bbf7b3e098b18fcb5310435557a497">adicionarCarro</a>(<a class="code hl_class" href="class_carro.html">Carro</a>(<span class="stringliteral">&quot;Corolla&quot;</span>, <span class="stringliteral">&quot;Toyota&quot;</span>, 2020, <span class="stringliteral">&quot;POI5050&quot;</span>, 240.2));</div>
+<div class="line"><span class="lineno">   33</span>    locadora.<a class="code hl_function" href="class_locadora.html#aa5bbf7b3e098b18fcb5310435557a497">adicionarCarro</a>(<a class="code hl_class" href="class_carro.html">Carro</a>(<span class="stringliteral">&quot;Golf&quot;</span>, <span class="stringliteral">&quot;Volkswagen&quot;</span>, 2018, <span class="stringliteral">&quot;GFR6985&quot;</span>, 109.5));</div>
+<div class="line"><span class="lineno">   34</span>    locadora.<a class="code hl_function" href="class_locadora.html#aa5bbf7b3e098b18fcb5310435557a497">adicionarCarro</a>(<a class="code hl_class" href="class_carro.html">Carro</a>(<span class="stringliteral">&quot;Cruze&quot;</span>, <span class="stringliteral">&quot;Chevrolet&quot;</span>, 2021, <span class="stringliteral">&quot;KLT9575&quot;</span>, 98.7));</div>
+<div class="line"><span class="lineno">   35</span> </div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordtype">int</span> opcao;</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_class" href="class_admin.html">Admin</a> admin;</div>
+<div class="line"><span class="lineno">   38</span>    std::string modelo;</div>
+<div class="line"><span class="lineno">   39</span>    std::string senha;</div>
+<div class="line"><span class="lineno">   40</span>    <span class="keywordtype">int</span> opcaoAdmin, cpf;</div>
+<div class="line"><span class="lineno">   41</span>    std::string novoModelo, novaMarca, novaPlaca;</div>
+<div class="line"><span class="lineno">   42</span>    <span class="keywordtype">int</span> novoAno;</div>
+<div class="line"><span class="lineno">   43</span>    <span class="keywordtype">bool</span> possuiAr, possuirMarcha, possuirMotorFlex;</div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordtype">bool</span> clienteAutenticado = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   45</span>    std::string novoNome, novaSenha;</div>
+<div class="line"><span class="lineno">   46</span>    <span class="keywordtype">double</span> valorDiaria;</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordtype">int</span> novoCPF, quantDias, clienteCPF;</div>
+<div class="line"><span class="lineno">   48</span>    std::string numeroCartao = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>    <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">   51</span>    {</div>
+<div class="line"><span class="lineno">   52</span>        <span class="comment">// Mostrar página inicial</span></div>
+<div class="line"><span class="lineno">   53</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;===== Página Inicial =====&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   54</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;Selecione uma opção:&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   55</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;1. Cliente&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   56</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;2. Administrador&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   57</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;0. Sair&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   58</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;==========================&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   59</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;Opção: &quot;</span>;</div>
+<div class="line"><span class="lineno">   60</span>        std::cin &gt;&gt; opcao;</div>
+<div class="line"><span class="lineno">   61</span> </div>
+<div class="line"><span class="lineno">   62</span>        <span class="keywordflow">switch</span> (opcao)</div>
+<div class="line"><span class="lineno">   63</span>        {</div>
+<div class="line"><span class="lineno">   64</span>            <span class="keywordflow">case</span> 1: <span class="comment">//Menu do cliente</span></div>
+<div class="line"><span class="lineno">   65</span>            {</div>
+<div class="line"><span class="lineno">   66</span>                <span class="comment">// Menu do Cliente</span></div>
+<div class="line"><span class="lineno">   67</span>                std::cout &lt;&lt; <span class="stringliteral">&quot;===== Menu do Cliente =====&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   68</span>                <span class="keywordtype">int</span> opcaoCliente;</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>                <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">   71</span>                {</div>
+<div class="line"><span class="lineno">   72</span>                    std::cout &lt;&lt; <span class="stringliteral">&quot;Selecione uma opção:&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   73</span>                    std::cout &lt;&lt; <span class="stringliteral">&quot;1. Criar conta&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   74</span>                    std::cout &lt;&lt; <span class="stringliteral">&quot;2. Autenticação&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   75</span>                    std::cout &lt;&lt; <span class="stringliteral">&quot;0. Voltar para a página inicial&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   76</span>                    std::cout &lt;&lt; <span class="stringliteral">&quot;==================================&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   77</span>                    std::cout &lt;&lt; <span class="stringliteral">&quot;Opção: &quot;</span>;</div>
+<div class="line"><span class="lineno">   78</span>                    std::cin &gt;&gt; opcaoCliente;</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>                    <span class="keywordflow">switch</span> (opcaoCliente)</div>
+<div class="line"><span class="lineno">   81</span>                    {</div>
+<div class="line"><span class="lineno">   82</span>                        <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno">   83</span>                        {</div>
+<div class="line"><span class="lineno">   84</span>                            std::cout &lt;&lt; <span class="stringliteral">&quot;===== Criar Conta =====&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   85</span>                            std::cout &lt;&lt; <span class="stringliteral">&quot;Nome: &quot;</span>;</div>
+<div class="line"><span class="lineno">   86</span>                            std::cin.ignore();</div>
+<div class="line"><span class="lineno">   87</span>                            std::getline(std::cin, novoNome);</div>
+<div class="line"><span class="lineno">   88</span>                            std::cout &lt;&lt; <span class="stringliteral">&quot;CPF: &quot;</span>;</div>
+<div class="line"><span class="lineno">   89</span>                            std::cin &gt;&gt; novoCPF;</div>
+<div class="line"><span class="lineno">   90</span>                            std::cout &lt;&lt; <span class="stringliteral">&quot;Senha: &quot;</span>;</div>
+<div class="line"><span class="lineno">   91</span>                            std::cin &gt;&gt; novaSenha;</div>
+<div class="line"><span class="lineno">   92</span> </div>
+<div class="line"><span class="lineno">   93</span>                            <span class="comment">// Verifica se o cpf ja esta cadastrado</span></div>
+<div class="line"><span class="lineno">   94</span>                            <span class="keywordtype">bool</span> clienteExistente = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   95</span>                            <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; cliente : cliente.clientes) {</div>
+<div class="line"><span class="lineno">   96</span>                                <span class="keywordflow">if</span> (cliente.<a class="code hl_function" href="class_cliente.html#a3f78e13722ebdb1372067d3cc22fa4f9">getCPF</a>() == novoCPF) {</div>
+<div class="line"><span class="lineno">   97</span>                                    clienteExistente = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   98</span>                                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   99</span>                                }</div>
+<div class="line"><span class="lineno">  100</span>                            }</div>
+<div class="line"><span class="lineno">  101</span> </div>
+<div class="line"><span class="lineno">  102</span>                            <span class="keywordflow">if</span> (clienteExistente) {</div>
+<div class="line"><span class="lineno">  103</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Um cliente com o CPF informado já está cadastrado.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  104</span>                            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  105</span>                                <span class="comment">// Cria um novo usuario e adiciona aos clientes</span></div>
+<div class="line"><span class="lineno">  106</span>                                <a class="code hl_class" href="class_cliente.html">Cliente</a> novoCliente(novoNome, <span class="stringliteral">&quot;&quot;</span>, novoCPF, <span class="stringliteral">&quot;&quot;</span>, novaSenha, <span class="stringliteral">&quot;&quot;</span>, 0, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  107</span>                                cliente.<a class="code hl_variable" href="class_cliente.html#a9c5e61b2d7a120ffcebc133d83cc277a">clientes</a>.push_back(novoCliente);</div>
+<div class="line"><span class="lineno">  108</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Conta criada com sucesso!&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  109</span>                            }</div>
+<div class="line"><span class="lineno">  110</span> </div>
+<div class="line"><span class="lineno">  111</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  112</span>                        }</div>
+<div class="line"><span class="lineno">  113</span> </div>
+<div class="line"><span class="lineno">  114</span>                        <span class="keywordflow">case</span> 2:</div>
+<div class="line"><span class="lineno">  115</span>                        {</div>
+<div class="line"><span class="lineno">  116</span>                            std::cout &lt;&lt; <span class="stringliteral">&quot;===== Autenticação do Cliente =====&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  117</span>                            std::cout &lt;&lt; <span class="stringliteral">&quot;CPF: &quot;</span>;</div>
+<div class="line"><span class="lineno">  118</span>                            std::cin &gt;&gt; cpf;</div>
+<div class="line"><span class="lineno">  119</span>                            std::cout &lt;&lt; <span class="stringliteral">&quot;Senha: &quot;</span>;</div>
+<div class="line"><span class="lineno">  120</span>                            std::cin &gt;&gt; senha;</div>
+<div class="line"><span class="lineno">  121</span> </div>
+<div class="line"><span class="lineno">  122</span>                            <span class="comment">// Verificar autenticação do cliente</span></div>
+<div class="line"><span class="lineno">  123</span>                            <span class="keywordtype">bool</span> clienteAutenticado = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  124</span>                            <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; cliente : cliente.clientes) {</div>
+<div class="line"><span class="lineno">  125</span>                                <span class="keywordflow">if</span> (cliente.<a class="code hl_function" href="class_cliente.html#a3f78e13722ebdb1372067d3cc22fa4f9">getCPF</a>() == cpf &amp;&amp; cliente.<a class="code hl_function" href="class_conta.html#aace6d48702efd2d146db2e97ba1efba1">getSenha</a>() == senha) {</div>
+<div class="line"><span class="lineno">  126</span>                                    clienteAutenticado = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  127</span>                                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  128</span>                                }</div>
+<div class="line"><span class="lineno">  129</span>                            }</div>
+<div class="line"><span class="lineno">  130</span> </div>
+<div class="line"><span class="lineno">  131</span>                            <span class="keywordflow">if</span> (clienteAutenticado)</div>
+<div class="line"><span class="lineno">  132</span>                            {</div>
+<div class="line"><span class="lineno">  133</span>                                <span class="keywordtype">int</span> opcaoMenuCliente;</div>
+<div class="line"><span class="lineno">  134</span> </div>
+<div class="line"><span class="lineno">  135</span>                                <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  136</span>                                {</div>
+<div class="line"><span class="lineno">  137</span>                                    std::cout &lt;&lt; <span class="stringliteral">&quot;===== Menu do Cliente =====&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  138</span>                                    std::cout &lt;&lt; <span class="stringliteral">&quot;Selecione uma opção:&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  139</span>                                    std::cout &lt;&lt; <span class="stringliteral">&quot;1. Adicionar cartão de crédito&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  140</span>                                    std::cout &lt;&lt; <span class="stringliteral">&quot;2. Remover cartão de crédito&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  141</span>                                    std::cout &lt;&lt; <span class="stringliteral">&quot;3. Pesquisar carros disponíveis&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  142</span>                                    std::cout &lt;&lt; <span class="stringliteral">&quot;4. Estimativa de preco&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  143</span>                                    std::cout &lt;&lt; <span class="stringliteral">&quot;5. Fazer uma reserva&quot;</span> &lt;&lt; std::endl;                                </div>
+<div class="line"><span class="lineno">  144</span>                                    std::cout &lt;&lt; <span class="stringliteral">&quot;6. Alterar senha&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  145</span>                                    std::cout &lt;&lt; <span class="stringliteral">&quot;0. Voltar para a página inicial&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  146</span>                                    std::cout &lt;&lt; <span class="stringliteral">&quot;==================================&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  147</span>                                    std::cout &lt;&lt; <span class="stringliteral">&quot;Opção: &quot;</span>;</div>
+<div class="line"><span class="lineno">  148</span>                                    std::cin &gt;&gt; opcaoMenuCliente;</div>
+<div class="line"><span class="lineno">  149</span> </div>
+<div class="line"><span class="lineno">  150</span>                                    <span class="keywordflow">switch</span> (opcaoMenuCliente)</div>
+<div class="line"><span class="lineno">  151</span>                                    {</div>
+<div class="line"><span class="lineno">  152</span>                                        <span class="keywordflow">case</span> 1: <span class="comment">//Add cartao</span></div>
+<div class="line"><span class="lineno">  153</span>                                        {</div>
+<div class="line"><span class="lineno">  154</span>                                            std::cout &lt;&lt; <span class="stringliteral">&quot;===== Adicionar Cartão de Crédito =====&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  155</span>                                            std::cout &lt;&lt; <span class="stringliteral">&quot;Digite o número do cartão de crédito: &quot;</span>;</div>
+<div class="line"><span class="lineno">  156</span>                                            std::string numeroCartao;</div>
+<div class="line"><span class="lineno">  157</span>                                            std::cin &gt;&gt; numeroCartao;</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>                                            <span class="comment">// Add cartão do cliente</span></div>
+<div class="line"><span class="lineno">  160</span>                                            cliente.<a class="code hl_function" href="class_cliente.html#a0cfbb8c8b6a4d9636c19e78e1dd92b06">setCarteiraPagamento</a>(numeroCartao);</div>
+<div class="line"><span class="lineno">  161</span>                                            std::cout &lt;&lt; <span class="stringliteral">&quot;Cartão de crédito adicionado com sucesso!&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  162</span>                                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  163</span>                                        }</div>
+<div class="line"><span class="lineno">  164</span> </div>
+<div class="line"><span class="lineno">  165</span>                                        <span class="keywordflow">case</span> 2: <span class="comment">//Rem cartao</span></div>
+<div class="line"><span class="lineno">  166</span>                                        {</div>
+<div class="line"><span class="lineno">  167</span>                                            std::cout &lt;&lt; <span class="stringliteral">&quot;===== Remover Cartão de Crédito =====&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  168</span>                                            std::cout &lt;&lt; <span class="stringliteral">&quot;Lista de Cartões de Crédito:&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  169</span> </div>
+<div class="line"><span class="lineno">  170</span>                                            <span class="comment">// Recebe o numero do cliente</span></div>
+<div class="line"><span class="lineno">  171</span>                                            std::string numeroCartao = cliente.<a class="code hl_function" href="class_cliente.html#a3cb7d7c2891873516e2379c2f8d2428b">getCarteiraPagamento</a>();</div>
+<div class="line"><span class="lineno">  172</span> </div>
+<div class="line"><span class="lineno">  173</span>                                            <span class="keywordflow">if</span> (numeroCartao.empty())</div>
+<div class="line"><span class="lineno">  174</span>                                                {</div>
+<div class="line"><span class="lineno">  175</span>                                                    std::cout &lt;&lt; <span class="stringliteral">&quot;Não há cartões de crédito cadastrados na conta.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  176</span>                                                }</div>
+<div class="line"><span class="lineno">  177</span>                                                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  178</span>                                                {</div>
+<div class="line"><span class="lineno">  179</span>                                                    std::cout &lt;&lt; <span class="stringliteral">&quot;Número do Cartão de Crédito: &quot;</span> &lt;&lt; numeroCartao &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  180</span>                                                    std::cout &lt;&lt; <span class="stringliteral">&quot;Deseja remover este cartão? (S/N): &quot;</span>;</div>
+<div class="line"><span class="lineno">  181</span>                                                    std::string resposta;</div>
+<div class="line"><span class="lineno">  182</span>                                                    std::cin &gt;&gt; resposta;</div>
+<div class="line"><span class="lineno">  183</span> </div>
+<div class="line"><span class="lineno">  184</span>                                                    <span class="keywordflow">if</span> (resposta == <span class="stringliteral">&quot;S&quot;</span> || resposta == <span class="stringliteral">&quot;s&quot;</span>)</div>
+<div class="line"><span class="lineno">  185</span>                                                    {</div>
+<div class="line"><span class="lineno">  186</span>                                                        <span class="comment">// Remove o cartão</span></div>
+<div class="line"><span class="lineno">  187</span>                                                        cliente.<a class="code hl_function" href="class_cliente.html#a0cfbb8c8b6a4d9636c19e78e1dd92b06">setCarteiraPagamento</a>(<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  188</span>                                                        std::cout &lt;&lt; <span class="stringliteral">&quot;Cartão de crédito removido com sucesso!&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  189</span>                                                    }</div>
+<div class="line"><span class="lineno">  190</span>                                                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  191</span>                                                    {</div>
+<div class="line"><span class="lineno">  192</span>                                                        std::cout &lt;&lt; <span class="stringliteral">&quot;Operação cancelada.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  193</span>                                                    }</div>
+<div class="line"><span class="lineno">  194</span>                                                }</div>
+<div class="line"><span class="lineno">  195</span>                                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  196</span>                                        }</div>
+<div class="line"><span class="lineno">  197</span> </div>
+<div class="line"><span class="lineno">  198</span>                                        <span class="keywordflow">case</span> 3: <span class="comment">//Pesquisar carros </span></div>
+<div class="line"><span class="lineno">  199</span>                                        {</div>
+<div class="line"><span class="lineno">  200</span>                                            locadora.<a class="code hl_function" href="class_locadora.html#aa93e5f373b94fd656a042445caced938">listarCarrosDisponiveis</a>();</div>
+<div class="line"><span class="lineno">  201</span>                                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  202</span>                                        }</div>
+<div class="line"><span class="lineno">  203</span> </div>
+<div class="line"><span class="lineno">  204</span>                                        <span class="keywordflow">case</span> 4: <span class="comment">//Ver preco</span></div>
+<div class="line"><span class="lineno">  205</span>                                        {</div>
+<div class="line"><span class="lineno">  206</span>                                            std::cout &lt;&lt; <span class="stringliteral">&quot;===== Ver Custo da Reserva =====&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  207</span>                                            std::cout &lt;&lt; <span class="stringliteral">&quot;Modelo do carro: &quot;</span>;</div>
+<div class="line"><span class="lineno">  208</span>                                            std::cin.ignore();</div>
+<div class="line"><span class="lineno">  209</span>                                            std::getline(std::cin, modelo);</div>
+<div class="line"><span class="lineno">  210</span> </div>
+<div class="line"><span class="lineno">  211</span>                                            <span class="comment">// Ver se o carro esta disponivel</span></div>
+<div class="line"><span class="lineno">  212</span>                                            <span class="keywordtype">bool</span> carroDisponivel = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  213</span>                                            <span class="keywordtype">double</span> valorDiaria = 0.0;</div>
+<div class="line"><span class="lineno">  214</span>                                            std::string numeroCartao;  </div>
+<div class="line"><span class="lineno">  215</span> </div>
+<div class="line"><span class="lineno">  216</span>                                            <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; carro : locadora.carros)</div>
+<div class="line"><span class="lineno">  217</span>                                            {</div>
+<div class="line"><span class="lineno">  218</span>                                                <span class="keywordflow">if</span> (carro.modelo == modelo &amp;&amp; carro.disponivel)</div>
+<div class="line"><span class="lineno">  219</span>                                                {</div>
+<div class="line"><span class="lineno">  220</span>                                                    carroDisponivel = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  221</span>                                                    valorDiaria = carro.valorDiaria;</div>
+<div class="line"><span class="lineno">  222</span>                                                    numeroCartao = cliente.<a class="code hl_function" href="class_cliente.html#a3cb7d7c2891873516e2379c2f8d2428b">getCarteiraPagamento</a>();  </div>
+<div class="line"><span class="lineno">  223</span>                                                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  224</span>                                                }</div>
+<div class="line"><span class="lineno">  225</span>                                            }</div>
+<div class="line"><span class="lineno">  226</span> </div>
+<div class="line"><span class="lineno">  227</span>                                            <span class="keywordflow">if</span> (carroDisponivel)</div>
+<div class="line"><span class="lineno">  228</span>                                            {</div>
+<div class="line"><span class="lineno">  229</span>                                                std::cout &lt;&lt; <span class="stringliteral">&quot;Quantidade de dias: &quot;</span>;</div>
+<div class="line"><span class="lineno">  230</span>                                                std::cin &gt;&gt; quantDias;</div>
+<div class="line"><span class="lineno">  231</span> </div>
+<div class="line"><span class="lineno">  232</span>                                                <span class="keywordtype">double</span> valorTotal = valorDiaria * quantDias;</div>
+<div class="line"><span class="lineno">  233</span>                                                valorTotal += valorTotal + pagamento.<a class="code hl_variable" href="class_pagamento.html#afc71647a9bd39df44de3f78cd96efb97">taxa</a>;</div>
+<div class="line"><span class="lineno">  234</span> </div>
+<div class="line"><span class="lineno">  235</span>                                                std::cout &lt;&lt; <span class="stringliteral">&quot;O custo da reserva para o carro modelo &quot;</span> &lt;&lt; modelo &lt;&lt; <span class="stringliteral">&quot; por &quot;</span> &lt;&lt; quantDias &lt;&lt; <span class="stringliteral">&quot; dias é: R$&quot;</span> &lt;&lt; valorTotal &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  236</span>                                            }</div>
+<div class="line"><span class="lineno">  237</span>                                            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  238</span>                                            {</div>
+<div class="line"><span class="lineno">  239</span>                                                std::cout &lt;&lt; <span class="stringliteral">&quot;Não foi possível encontrar um carro disponível com o modelo especificado.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  240</span>                                            }</div>
+<div class="line"><span class="lineno">  241</span>                                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  242</span>                                        }</div>
+<div class="line"><span class="lineno">  243</span> </div>
+<div class="line"><span class="lineno">  244</span>                                        <span class="keywordflow">case</span> 5: <span class="comment">//Faz Reserva</span></div>
+<div class="line"><span class="lineno">  245</span>                                        {</div>
+<div class="line"><span class="lineno">  246</span>                                            std::cout &lt;&lt; <span class="stringliteral">&quot;===== Fazer uma Reserva =====&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  247</span>                                            std::cout &lt;&lt; <span class="stringliteral">&quot;Modelo do carro: &quot;</span>;</div>
+<div class="line"><span class="lineno">  248</span>                                            std::cin.ignore();</div>
+<div class="line"><span class="lineno">  249</span>                                            std::getline(std::cin, modelo);</div>
+<div class="line"><span class="lineno">  250</span> </div>
+<div class="line"><span class="lineno">  251</span>                                            <span class="comment">// Ver se o carro esta disponivel</span></div>
+<div class="line"><span class="lineno">  252</span>                                            <span class="keywordtype">bool</span> carroDisponivel = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  253</span>                                            <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; carro : locadora.carros)</div>
+<div class="line"><span class="lineno">  254</span>                                            {</div>
+<div class="line"><span class="lineno">  255</span>                                                <span class="keywordflow">if</span> (carro.modelo == modelo &amp;&amp; carro.disponivel)</div>
+<div class="line"><span class="lineno">  256</span>                                                {</div>
+<div class="line"><span class="lineno">  257</span>                                                    carroDisponivel = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  258</span> </div>
+<div class="line"><span class="lineno">  259</span>                                                    std::cout &lt;&lt; <span class="stringliteral">&quot;Quantidade de dias: &quot;</span>;</div>
+<div class="line"><span class="lineno">  260</span>                                                    std::cin &gt;&gt; quantDias;</div>
+<div class="line"><span class="lineno">  261</span> </div>
+<div class="line"><span class="lineno">  262</span>                                                    <span class="keywordtype">double</span> valorTotal = carro.valorDiaria * quantDias;</div>
+<div class="line"><span class="lineno">  263</span>                                                    valorTotal += valorTotal + pagamento.<a class="code hl_variable" href="class_pagamento.html#afc71647a9bd39df44de3f78cd96efb97">taxa</a>;</div>
+<div class="line"><span class="lineno">  264</span> </div>
+<div class="line"><span class="lineno">  265</span>                                                    std::cout &lt;&lt; <span class="stringliteral">&quot;Valor total da reserva: R$&quot;</span> &lt;&lt; valorTotal &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  266</span>                                                    std::cout &lt;&lt; <span class="stringliteral">&quot;Deseja confirmar a reserva? (S/N): &quot;</span>;</div>
+<div class="line"><span class="lineno">  267</span>                                                    std::string resposta;</div>
+<div class="line"><span class="lineno">  268</span>                                                    std::cin &gt;&gt; resposta;</div>
+<div class="line"><span class="lineno">  269</span> </div>
+<div class="line"><span class="lineno">  270</span>                                                    <span class="keywordflow">if</span> (resposta == <span class="stringliteral">&quot;S&quot;</span> || resposta == <span class="stringliteral">&quot;s&quot;</span>)</div>
+<div class="line"><span class="lineno">  271</span>                                                    {</div>
+<div class="line"><span class="lineno">  272</span>                                                        <span class="comment">//Faz a reserva</span></div>
+<div class="line"><span class="lineno">  273</span>                                                        carro.disponivel = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  274</span>                                                        std::cout &lt;&lt; <span class="stringliteral">&quot;Reserva realizada com sucesso para o carro modelo &quot;</span> &lt;&lt; modelo &lt;&lt; <span class="stringliteral">&quot;.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  275</span>                                                    }</div>
+<div class="line"><span class="lineno">  276</span>                                                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  277</span>                                                    {</div>
+<div class="line"><span class="lineno">  278</span>                                                        std::cout &lt;&lt; <span class="stringliteral">&quot;Operação cancelada.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  279</span>                                                    }</div>
+<div class="line"><span class="lineno">  280</span>                                                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  281</span>                                                }</div>
+<div class="line"><span class="lineno">  282</span>                                            }</div>
+<div class="line"><span class="lineno">  283</span> </div>
+<div class="line"><span class="lineno">  284</span>                                            <span class="keywordflow">if</span> (!carroDisponivel)</div>
+<div class="line"><span class="lineno">  285</span>                                            {</div>
+<div class="line"><span class="lineno">  286</span>                                                std::cout &lt;&lt; <span class="stringliteral">&quot;Não foi possível encontrar um carro disponível com o modelo especificado.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  287</span>                                            }</div>
+<div class="line"><span class="lineno">  288</span> </div>
+<div class="line"><span class="lineno">  289</span>                                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  290</span>                                        }</div>
+<div class="line"><span class="lineno">  291</span>                                        </div>
+<div class="line"><span class="lineno">  292</span>                                        <span class="keywordflow">case</span> 6: <span class="comment">//Alterar senha</span></div>
+<div class="line"><span class="lineno">  293</span>                                        {</div>
+<div class="line"><span class="lineno">  294</span>                                            std::cout &lt;&lt; <span class="stringliteral">&quot;===== Alterar Senha =====&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  295</span>                                            std::cout &lt;&lt; <span class="stringliteral">&quot;Nova senha: &quot;</span>;</div>
+<div class="line"><span class="lineno">  296</span>                                            std::cin &gt;&gt; novaSenha;</div>
+<div class="line"><span class="lineno">  297</span> </div>
+<div class="line"><span class="lineno">  298</span>                                            <span class="comment">// Altera senha do cliente</span></div>
+<div class="line"><span class="lineno">  299</span>                                            <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; cliente : cliente.clientes)</div>
+<div class="line"><span class="lineno">  300</span>                                            {</div>
+<div class="line"><span class="lineno">  301</span>                                                <span class="keywordflow">if</span> (cliente.<a class="code hl_function" href="class_cliente.html#a3f78e13722ebdb1372067d3cc22fa4f9">getCPF</a>() == cpf)</div>
+<div class="line"><span class="lineno">  302</span>                                                {</div>
+<div class="line"><span class="lineno">  303</span>                                                    cliente.<a class="code hl_function" href="class_conta.html#aa2eb12e56a4c2efced722f92ce22aa7a">setSenha</a>(novaSenha);</div>
+<div class="line"><span class="lineno">  304</span>                                                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  305</span>                                                }</div>
+<div class="line"><span class="lineno">  306</span>                                            }</div>
+<div class="line"><span class="lineno">  307</span>                                            std::cout &lt;&lt; <span class="stringliteral">&quot;Senha alterada com sucesso!&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  308</span>                                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  309</span>                                        }</div>
+<div class="line"><span class="lineno">  310</span> </div>
+<div class="line"><span class="lineno">  311</span>                                        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  312</span>                                        {</div>
+<div class="line"><span class="lineno">  313</span>                                        std::cout &lt;&lt; <span class="stringliteral">&quot;Opção inválida. Tente novamente.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  314</span>                                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  315</span>                                        }</div>
+<div class="line"><span class="lineno">  316</span> </div>
+<div class="line"><span class="lineno">  317</span>                                    }</div>
+<div class="line"><span class="lineno">  318</span>                                } <span class="keywordflow">while</span> (opcaoMenuCliente);</div>
+<div class="line"><span class="lineno">  319</span>                            }</div>
+<div class="line"><span class="lineno">  320</span>                            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  321</span>                            {</div>
+<div class="line"><span class="lineno">  322</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Autenticação falhou. CPF ou senha incorretos.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  323</span> </div>
+<div class="line"><span class="lineno">  324</span>                            }</div>
+<div class="line"><span class="lineno">  325</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  326</span>                        }</div>
+<div class="line"><span class="lineno">  327</span> </div>
+<div class="line"><span class="lineno">  328</span>                        <span class="keywordflow">case</span> 0:</div>
+<div class="line"><span class="lineno">  329</span>                        {</div>
+<div class="line"><span class="lineno">  330</span>                            std::cout &lt;&lt; <span class="stringliteral">&quot;Voltando para a página inicial...&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  331</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  332</span>                        }</div>
+<div class="line"><span class="lineno">  333</span>                        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  334</span>                        {</div>
+<div class="line"><span class="lineno">  335</span>                            std::cout &lt;&lt; <span class="stringliteral">&quot;Opção inválida. Tente novamente.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  336</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  337</span>                        }</div>
+<div class="line"><span class="lineno">  338</span> </div>
+<div class="line"><span class="lineno">  339</span>                    }</div>
+<div class="line"><span class="lineno">  340</span>                } <span class="keywordflow">while</span> (opcaoCliente !=0);</div>
+<div class="line"><span class="lineno">  341</span> </div>
+<div class="line"><span class="lineno">  342</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  343</span>            }</div>
+<div class="line"><span class="lineno">  344</span> </div>
+<div class="line"><span class="lineno">  345</span>            <span class="keywordflow">case</span> 2: <span class="comment">//Menu do ADM</span></div>
+<div class="line"><span class="lineno">  346</span>            {</div>
+<div class="line"><span class="lineno">  347</span>                std::string user, senha;</div>
+<div class="line"><span class="lineno">  348</span>                std::cout &lt;&lt; <span class="stringliteral">&quot;Usuário: &quot;</span>;</div>
+<div class="line"><span class="lineno">  349</span>                std::cin &gt;&gt; user;</div>
+<div class="line"><span class="lineno">  350</span>                std::cout &lt;&lt; <span class="stringliteral">&quot;Senha: &quot;</span>;</div>
+<div class="line"><span class="lineno">  351</span>                std::cin &gt;&gt; senha;</div>
+<div class="line"><span class="lineno">  352</span>                </div>
+<div class="line"><span class="lineno">  353</span>                <span class="keywordflow">if</span> (<a class="code hl_function" href="class_admin.html#acb77c2b12fc76720b99ba5b25555269f">Admin::isMasterAdmin</a>(user, senha)) </div>
+<div class="line"><span class="lineno">  354</span>                {</div>
+<div class="line"><span class="lineno">  355</span>                    <span class="keywordflow">do</span> </div>
+<div class="line"><span class="lineno">  356</span>                    {</div>
+<div class="line"><span class="lineno">  357</span>                        std::cout &lt;&lt; <span class="stringliteral">&quot;===== Menu do Administrador =====&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  358</span>                        std::cout &lt;&lt; <span class="stringliteral">&quot;Selecione uma opção:&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  359</span>                        std::cout &lt;&lt; <span class="stringliteral">&quot;1. Adicionar carro&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  360</span>                        std::cout &lt;&lt; <span class="stringliteral">&quot;2. Listar carros disponíveis&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  361</span>                        std::cout &lt;&lt; <span class="stringliteral">&quot;3. Alugar um carro&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  362</span>                        std::cout &lt;&lt; <span class="stringliteral">&quot;4. Devolver carro&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  363</span>                        std::cout &lt;&lt; <span class="stringliteral">&quot;5. Cadastrar cliente&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  364</span>                        std::cout &lt;&lt; <span class="stringliteral">&quot;0. Voltar para a página inicial&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  365</span>                        std::cout &lt;&lt; <span class="stringliteral">&quot;=================================&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  366</span>                        std::cout &lt;&lt; <span class="stringliteral">&quot;Opção: &quot;</span>;</div>
+<div class="line"><span class="lineno">  367</span>                        std::cin &gt;&gt; opcaoAdmin;</div>
+<div class="line"><span class="lineno">  368</span> </div>
+<div class="line"><span class="lineno">  369</span>                        <span class="keywordflow">switch</span> (opcaoAdmin) {</div>
+<div class="line"><span class="lineno">  370</span>                            <span class="keywordflow">case</span> 1: <span class="comment">// Add carro</span></div>
+<div class="line"><span class="lineno">  371</span>                            {</div>
+<div class="line"><span class="lineno">  372</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Informe o modelo do novo carro: &quot;</span>;</div>
+<div class="line"><span class="lineno">  373</span>                                std::cin &gt;&gt; novoModelo;</div>
+<div class="line"><span class="lineno">  374</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Informe a marca do novo carro: &quot;</span>;</div>
+<div class="line"><span class="lineno">  375</span>                                std::cin &gt;&gt; novaMarca;</div>
+<div class="line"><span class="lineno">  376</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Informe o ano do novo carro: &quot;</span>;</div>
+<div class="line"><span class="lineno">  377</span>                                std::cin &gt;&gt; novoAno;</div>
+<div class="line"><span class="lineno">  378</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Informe a placa do novo carro: &quot;</span>;</div>
+<div class="line"><span class="lineno">  379</span>                                std::cin &gt;&gt; novaPlaca;</div>
+<div class="line"><span class="lineno">  380</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Informe o valor da diária do novo carro: &quot;</span>;</div>
+<div class="line"><span class="lineno">  381</span>                                std::cin &gt;&gt; valorDiaria;</div>
+<div class="line"><span class="lineno">  382</span>                                locadora.<a class="code hl_function" href="class_locadora.html#aa5bbf7b3e098b18fcb5310435557a497">adicionarCarro</a>(<a class="code hl_class" href="class_carro.html">Carro</a>(novoModelo, novaMarca, novoAno, novaPlaca, valorDiaria));</div>
+<div class="line"><span class="lineno">  383</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Novo carro adicionado com sucesso!&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  384</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  385</span>                            }</div>
+<div class="line"><span class="lineno">  386</span> </div>
+<div class="line"><span class="lineno">  387</span>                            <span class="keywordflow">case</span> 2: <span class="comment">// Listar carros</span></div>
+<div class="line"><span class="lineno">  388</span>                            {</div>
+<div class="line"><span class="lineno">  389</span>                                locadora.<a class="code hl_function" href="class_locadora.html#aa93e5f373b94fd656a042445caced938">listarCarrosDisponiveis</a>();</div>
+<div class="line"><span class="lineno">  390</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  391</span>                            }</div>
+<div class="line"><span class="lineno">  392</span> </div>
+<div class="line"><span class="lineno">  393</span>                            <span class="keywordflow">case</span> 3: <span class="comment">// Alugar carro</span></div>
+<div class="line"><span class="lineno">  394</span>                            {</div>
+<div class="line"><span class="lineno">  395</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Informe o modelo do carro que deseja alugar: &quot;</span>;</div>
+<div class="line"><span class="lineno">  396</span>                                std::cin &gt;&gt; modelo;</div>
+<div class="line"><span class="lineno">  397</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Informe o CPF do cliente: &quot;</span>;</div>
+<div class="line"><span class="lineno">  398</span>                                std::cin &gt;&gt; clienteCPF;</div>
+<div class="line"><span class="lineno">  399</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Informe a quantidade de dias que deseja: &quot;</span>;</div>
+<div class="line"><span class="lineno">  400</span>                                std::cin &gt;&gt; quantDias;</div>
+<div class="line"><span class="lineno">  401</span>                                pagamento.<a class="code hl_function" href="class_pagamento.html#aeec4c9d2f0ba1c34758ac695c08d0d50">efetuarPagamento</a>(modelo, clienteCPF, quantDias);</div>
+<div class="line"><span class="lineno">  402</span>                                locadora.<a class="code hl_function" href="class_locadora.html#ad20cff556894335fbb50752d412b2fbd">alugarCarro</a>(modelo);</div>
+<div class="line"><span class="lineno">  403</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  404</span>                            }</div>
+<div class="line"><span class="lineno">  405</span> </div>
+<div class="line"><span class="lineno">  406</span>                            <span class="keywordflow">case</span> 4: <span class="comment">// Devolver carro</span></div>
+<div class="line"><span class="lineno">  407</span>                            {</div>
+<div class="line"><span class="lineno">  408</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Informe o modelo do carro que deseja devolver: &quot;</span>;</div>
+<div class="line"><span class="lineno">  409</span>                                std::cin &gt;&gt; modelo;</div>
+<div class="line"><span class="lineno">  410</span>                                locadora.<a class="code hl_function" href="class_locadora.html#aae27c18249a4e81486fac56cdc024032">devolverCarro</a>(modelo);</div>
+<div class="line"><span class="lineno">  411</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  412</span>                            }</div>
+<div class="line"><span class="lineno">  413</span> </div>
+<div class="line"><span class="lineno">  414</span>                            <span class="keywordflow">case</span> 5: <span class="comment">// Cadastrar cliente</span></div>
+<div class="line"><span class="lineno">  415</span>                            {</div>
+<div class="line"><span class="lineno">  416</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;===== Cadastrar cliente =====&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  417</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Informe o nome do cliente: &quot;</span>;</div>
+<div class="line"><span class="lineno">  418</span>                                std::cin.ignore();</div>
+<div class="line"><span class="lineno">  419</span>                                std::getline(std::cin, novoNome);</div>
+<div class="line"><span class="lineno">  420</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Informe o CPF do cliente: &quot;</span>;</div>
+<div class="line"><span class="lineno">  421</span>                                std::cin &gt;&gt; novoCPF;</div>
+<div class="line"><span class="lineno">  422</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Informe a senha do cliente: &quot;</span>;</div>
+<div class="line"><span class="lineno">  423</span>                                std::cin.ignore();</div>
+<div class="line"><span class="lineno">  424</span>                                std::getline(std::cin, novaSenha);</div>
+<div class="line"><span class="lineno">  425</span> </div>
+<div class="line"><span class="lineno">  426</span>                                <span class="comment">// Cria novo cliente</span></div>
+<div class="line"><span class="lineno">  427</span>                                <a class="code hl_class" href="class_cliente.html">Cliente</a> novoCliente(novoNome, <span class="stringliteral">&quot;&quot;</span>, novoCPF, <span class="stringliteral">&quot;&quot;</span>, novaSenha, <span class="stringliteral">&quot;&quot;</span>, 0, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  428</span> </div>
+<div class="line"><span class="lineno">  429</span>                                <span class="comment">// Add o cliente ao vetor clientes</span></div>
+<div class="line"><span class="lineno">  430</span>                                cliente.<a class="code hl_variable" href="class_cliente.html#a9c5e61b2d7a120ffcebc133d83cc277a">clientes</a>.push_back(novoCliente);</div>
+<div class="line"><span class="lineno">  431</span> </div>
+<div class="line"><span class="lineno">  432</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Cliente cadastrado com sucesso!&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  433</span> </div>
+<div class="line"><span class="lineno">  434</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  435</span>                            }</div>
+<div class="line"><span class="lineno">  436</span>                        </div>
+<div class="line"><span class="lineno">  437</span>                            <span class="keywordflow">case</span> 0: <span class="comment">// Voltar para a página inicial</span></div>
+<div class="line"><span class="lineno">  438</span>                            {</div>
+<div class="line"><span class="lineno">  439</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Voltando para a página inicial...&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  440</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  441</span>                            }</div>
+<div class="line"><span class="lineno">  442</span> </div>
+<div class="line"><span class="lineno">  443</span>                            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  444</span>                            {</div>
+<div class="line"><span class="lineno">  445</span>                                std::cout &lt;&lt; <span class="stringliteral">&quot;Opção inválida. Tente novamente.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  446</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  447</span>                            }</div>
+<div class="line"><span class="lineno">  448</span>                        }</div>
+<div class="line"><span class="lineno">  449</span>                    } <span class="keywordflow">while</span> (opcaoAdmin != 0);</div>
+<div class="line"><span class="lineno">  450</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  451</span>                }</div>
+<div class="line"><span class="lineno">  452</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  453</span>                {</div>
+<div class="line"><span class="lineno">  454</span>                    std::cout &lt;&lt; <span class="stringliteral">&quot;Usuário ou senha incorretos. Acesso negado.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  455</span>                }</div>
+<div class="line"><span class="lineno">  456</span>            }</div>
+<div class="line"><span class="lineno">  457</span> </div>
+<div class="line"><span class="lineno">  458</span>            <span class="keywordflow">case</span> 0: <span class="comment">//Encerra o programa</span></div>
+<div class="line"><span class="lineno">  459</span>            {</div>
+<div class="line"><span class="lineno">  460</span>                std::cout &lt;&lt; <span class="stringliteral">&quot;Encerrando o programa...&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  461</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  462</span>            }</div>
+<div class="line"><span class="lineno">  463</span> </div>
+<div class="line"><span class="lineno">  464</span>            <span class="keywordflow">default</span>: <span class="comment">//msg erro</span></div>
+<div class="line"><span class="lineno">  465</span>            {</div>
+<div class="line"><span class="lineno">  466</span>                std::cout &lt;&lt; <span class="stringliteral">&quot;Opção inválida. Tente novamente.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  467</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  468</span>            }</div>
+<div class="line"><span class="lineno">  469</span> </div>
+<div class="line"><span class="lineno">  470</span>        }</div>
+<div class="line"><span class="lineno">  471</span>    } <span class="keywordflow">while</span> (opcao !=0);</div>
+<div class="line"><span class="lineno">  472</span> </div>
+<div class="line"><span class="lineno">  473</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  474</span>}</div>
+<div class="ttc" id="aclass_admin_html"><div class="ttname"><a href="class_admin.html">Admin</a></div><div class="ttdoc">Classe que representa um administrador.</div><div class="ttdef"><b>Definição</b> Admin.hpp:22</div></div>
+<div class="ttc" id="aclass_admin_html_acb77c2b12fc76720b99ba5b25555269f"><div class="ttname"><a href="class_admin.html#acb77c2b12fc76720b99ba5b25555269f">Admin::isMasterAdmin</a></div><div class="ttdeci">static bool isMasterAdmin(const std::string &amp;user, const std::string &amp;senha)</div><div class="ttdoc">Verifica se o usuário e a senha correspondem ao administrador master.</div><div class="ttdef"><b>Definição</b> Admin.cpp:14</div></div>
+<div class="ttc" id="aclass_carro_html"><div class="ttname"><a href="class_carro.html">Carro</a></div><div class="ttdoc">Classe que representa um carro.</div><div class="ttdef"><b>Definição</b> Carro.hpp:19</div></div>
+<div class="ttc" id="aclass_cliente_html"><div class="ttname"><a href="class_cliente.html">Cliente</a></div><div class="ttdoc">Classe que representa um cliente.</div><div class="ttdef"><b>Definição</b> Cliente.hpp:17</div></div>
+<div class="ttc" id="aclass_cliente_html_a0cfbb8c8b6a4d9636c19e78e1dd92b06"><div class="ttname"><a href="class_cliente.html#a0cfbb8c8b6a4d9636c19e78e1dd92b06">Cliente::setCarteiraPagamento</a></div><div class="ttdeci">void setCarteiraPagamento(const std::string &amp;carteiraPagamento)</div><div class="ttdoc">Define a carteira de pagamento do cliente.</div><div class="ttdef"><b>Definição</b> Cliente.cpp:55</div></div>
+<div class="ttc" id="aclass_cliente_html_a3cb7d7c2891873516e2379c2f8d2428b"><div class="ttname"><a href="class_cliente.html#a3cb7d7c2891873516e2379c2f8d2428b">Cliente::getCarteiraPagamento</a></div><div class="ttdeci">std::string getCarteiraPagamento() const</div><div class="ttdoc">Obtém a carteira de pagamento do cliente.</div><div class="ttdef"><b>Definição</b> Cliente.cpp:50</div></div>
+<div class="ttc" id="aclass_cliente_html_a3f78e13722ebdb1372067d3cc22fa4f9"><div class="ttname"><a href="class_cliente.html#a3f78e13722ebdb1372067d3cc22fa4f9">Cliente::getCPF</a></div><div class="ttdeci">int getCPF() const</div><div class="ttdoc">Obtém o CPF do cliente.</div><div class="ttdef"><b>Definição</b> Cliente.cpp:70</div></div>
+<div class="ttc" id="aclass_cliente_html_a9c5e61b2d7a120ffcebc133d83cc277a"><div class="ttname"><a href="class_cliente.html#a9c5e61b2d7a120ffcebc133d83cc277a">Cliente::clientes</a></div><div class="ttdeci">std::vector&lt; Cliente &gt; clientes</div><div class="ttdef"><b>Definição</b> Cliente.hpp:151</div></div>
+<div class="ttc" id="aclass_conta_html_aa2eb12e56a4c2efced722f92ce22aa7a"><div class="ttname"><a href="class_conta.html#aa2eb12e56a4c2efced722f92ce22aa7a">Conta::setSenha</a></div><div class="ttdeci">void setSenha(const std::string &amp;senha)</div><div class="ttdoc">Define a senha da conta.</div><div class="ttdef"><b>Definição</b> Conta.cpp:20</div></div>
+<div class="ttc" id="aclass_conta_html_aace6d48702efd2d146db2e97ba1efba1"><div class="ttname"><a href="class_conta.html#aace6d48702efd2d146db2e97ba1efba1">Conta::getSenha</a></div><div class="ttdeci">std::string getSenha() const</div><div class="ttdoc">Obtém a senha da conta.</div><div class="ttdef"><b>Definição</b> Conta.cpp:16</div></div>
+<div class="ttc" id="aclass_locadora_html"><div class="ttname"><a href="class_locadora.html">Locadora</a></div><div class="ttdoc">Classe que representa uma locadora de carros.</div><div class="ttdef"><b>Definição</b> Locadora.hpp:19</div></div>
+<div class="ttc" id="aclass_locadora_html_aa5bbf7b3e098b18fcb5310435557a497"><div class="ttname"><a href="class_locadora.html#aa5bbf7b3e098b18fcb5310435557a497">Locadora::adicionarCarro</a></div><div class="ttdeci">void adicionarCarro(Carro carro)</div><div class="ttdoc">Adiciona um carro à locadora.</div><div class="ttdef"><b>Definição</b> Locadora.cpp:9</div></div>
+<div class="ttc" id="aclass_locadora_html_aa93e5f373b94fd656a042445caced938"><div class="ttname"><a href="class_locadora.html#aa93e5f373b94fd656a042445caced938">Locadora::listarCarrosDisponiveis</a></div><div class="ttdeci">void listarCarrosDisponiveis()</div><div class="ttdoc">Lista os carros disponíveis na locadora.</div><div class="ttdef"><b>Definição</b> Locadora.cpp:13</div></div>
+<div class="ttc" id="aclass_locadora_html_aae27c18249a4e81486fac56cdc024032"><div class="ttname"><a href="class_locadora.html#aae27c18249a4e81486fac56cdc024032">Locadora::devolverCarro</a></div><div class="ttdeci">void devolverCarro(std::string modelo)</div><div class="ttdoc">Devolve um carro alugado pelo modelo.</div><div class="ttdef"><b>Definição</b> Locadora.cpp:34</div></div>
+<div class="ttc" id="aclass_locadora_html_ad20cff556894335fbb50752d412b2fbd"><div class="ttname"><a href="class_locadora.html#ad20cff556894335fbb50752d412b2fbd">Locadora::alugarCarro</a></div><div class="ttdeci">void alugarCarro(std::string modelo)</div><div class="ttdoc">Aluga um carro pelo modelo.</div><div class="ttdef"><b>Definição</b> Locadora.cpp:22</div></div>
+<div class="ttc" id="aclass_pagamento_html"><div class="ttname"><a href="class_pagamento.html">Pagamento</a></div><div class="ttdoc">Classe que representa o pagamento referente ao aluguel do carro.</div><div class="ttdef"><b>Definição</b> Pagamento.hpp:17</div></div>
+<div class="ttc" id="aclass_pagamento_html_aeec4c9d2f0ba1c34758ac695c08d0d50"><div class="ttname"><a href="class_pagamento.html#aeec4c9d2f0ba1c34758ac695c08d0d50">Pagamento::efetuarPagamento</a></div><div class="ttdeci">void efetuarPagamento(std::string modelo, int cpf, int dias)</div><div class="ttdoc">Efetua o pagamento de um carro alugado.</div><div class="ttdef"><b>Definição</b> Pagamento.cpp:18</div></div>
+<div class="ttc" id="aclass_pagamento_html_afc71647a9bd39df44de3f78cd96efb97"><div class="ttname"><a href="class_pagamento.html#afc71647a9bd39df44de3f78cd96efb97">Pagamento::taxa</a></div><div class="ttdeci">const double taxa</div><div class="ttdef"><b>Definição</b> Pagamento.hpp:24</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

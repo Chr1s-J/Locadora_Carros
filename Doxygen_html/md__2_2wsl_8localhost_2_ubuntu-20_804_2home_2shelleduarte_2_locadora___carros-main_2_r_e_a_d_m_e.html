@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação Locadora de Carros: Locadora de Carros - Projeto PDSII UFMG</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Logotipo Para Mecânico e Venda de Carros.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Documentação Locadora de Carros<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Este projeto implementa um sistema de locadora de carros.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div><div class="header">
+  <div class="headertitle"><div class="title">Locadora de Carros - Projeto PDSII UFMG</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><a class="anchor" id="autotoc_md0"></a></p><blockquote class="doxtable">
+<p>&zwj;Este projeto consiste em uma implementação de uma locadora de carros como parte da disciplina de Projeto e Desenvolvimento de Sistemas II (PDSII) na Universidade Federal de Minas Gerais (UFMG). </p>
+</blockquote>
+<h1><a class="anchor" id="autotoc_md1"></a>
+Descrição</h1>
+<p>A locadora de carros é um sistema que permite aos clientes alugar carros disponíveis por um determinado período de tempo. O objetivo do projeto é desenvolver um programa que simule o funcionamento de uma locadora de carros, oferecendo funcionalidades para cadastro de clientes, adição de carros ao estoque, consulta de carros disponíveis, aluguel de carros, devolução de carros, entre outras operações relacionadas à locação de veículos.</p>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Visão Geral da Solução</h1>
+<p>O programa é implementado em C++ e possui uma estrutura de classes que modela os principais componentes do sistema. A estrutura inclui as seguintes classes:</p>
+<p><b><a class="el" href="class_cliente.html" title="Classe que representa um cliente.">Cliente</a></b>: Representa um cliente da locadora, com atributos como nome, CPF e senha.</p>
+<p><b><a class="el" href="class_admin.html" title="Classe que representa um administrador.">Admin</a></b>: Representa um administrador da locadora, com funções específicas, como adicionar carros ao estoque.</p>
+<p><b><a class="el" href="class_locadora.html" title="Classe que representa uma locadora de carros.">Locadora</a></b>: Responsável por gerenciar o estoque de carros disponíveis para locação.</p>
+<p><b><a class="el" href="class_carro.html" title="Classe que representa um carro.">Carro</a></b>: Representa um carro disponível para locação, com informações como modelo, marca, ano, placa e valor da diária.</p>
+<p><b><a class="el" href="class_conta.html" title="Classe base para representar uma conta.">Conta</a></b>: Representa uma conta de cliente, contendo informações como nome, CPF e senha.</p>
+<p><b><a class="el" href="class_pagamento.html" title="Classe que representa o pagamento referente ao aluguel do carro.">Pagamento</a></b>: Realiza o processamento do pagamento de um aluguel de carro.</p>
+<p>O programa segue um fluxo de interação com o usuário, apresentando um menu principal com opções para clientes e administradores. Os clientes podem autenticar-se, alugar carros e devolvê-los, enquanto os administradores podem adicionar carros ao estoque e listar os carros disponíveis.</p>
+<h1><a class="anchor" id="autotoc_md3"></a>
+Principais Dificuldades Encontradas</h1>
+<p>Durante o desenvolvimento do projeto, as principais dificuldades encontradas foram:</p>
+<ol type="1">
+<li>Implementação da lógica de autenticação de clientes: Foi necessário criar um mecanismo de autenticação para garantir que apenas clientes autenticados pudessem realizar operações de aluguel e devolução de carros.</li>
+<li>Gerenciamento do estoque de carros: Foi necessário implementar a lógica para adicionar carros ao estoque, marcar carros como disponíveis ou alugados e realizar a consulta de carros disponíveis.</li>
+<li>Processamento de pagamentos: Foi necessário implementar o cálculo do valor total a ser pago pelo aluguel de um carro, considerando o valor da diária e a duração do aluguel.</li>
+</ol>
+<p>Apesar das dificuldades encontradas, o projeto permitiu o aprimoramento das habilidades de programação em C++, o entendimento de conceitos de modelagem de classes e a aplicação de princípios de desenvolvimento de software.</p>
+<h1><a class="anchor" id="autotoc_md4"></a>
+Requisitos do Sistema</h1>
+<p>Compilador C++</p>
+<p>Biblioteca de desenvolvimento C++ (dependendo do sistema operacional)</p>
+<p>Makefile (opcional, mas facilita o processo de compilação)</p>
+<h1><a class="anchor" id="autotoc_md5"></a>
+Como compilar e executar o projeto</h1>
+<ol type="1">
+<li>Clone o repositório do projeto em sua máquina local.</li>
+<li>Acesse o diretório do projeto via terminal.</li>
+<li>Utilize o comando <b>make</b> para compilar o código-fonte.</li>
+<li>Execute o programa resultante com o comando <b>make run</b>.</li>
+</ol>
+<h2><a class="anchor" id="autotoc_md6"></a>
+Equipe</h2>
+<p><em>João Márcio Calazans</em></p>
+<p><em>Shelle Duarte</em> </p>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>
